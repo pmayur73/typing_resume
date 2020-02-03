@@ -1,0 +1,59 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	line-height: 1.6;
+	height: 100vh;
+}
+
+.container {
+	width: 100%;
+	height: 100%;
+}
+
+section {
+	display: flex;
+	flex-direction: column-reverse;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	height: 100vh;
+}
+
+.var-highlight{
+	color: #C0AD60;
+}
+.string-highlight{
+	color: rgba(253, 149, 90, 0.8);
+}
+
+#typewriter{
+		font-size: 2em;
+		margin: 0;
+		font-family: "Courier New";
+		width: 100%;
+}
+
+#typewriter::after{
+	content: "|";
+	animation: blink 600ms linear infinite alternate;
+}
+
+@-webkit-keyframes blink{
+	0%{opacity: 0;}
+	100%{opacity: 1;}
+}
+
+@-moz-keyframes blink{
+	0%{opacity: 0;}
+	100%{opacity: 1;}
+}
+
+@keyframes blink{
+	0%{opacity: 0;}
+	100%{opacity: 1;}
+}
+
+
