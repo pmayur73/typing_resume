@@ -20,7 +20,13 @@ body {
 		 background: rgba(68, 68, 68, 0.9); 
 }
 
-
+.profile-image img {
+	height: 250px;
+	width: 250px;
+	border-radius: 100%;
+	border: 4px solid white;
+	box-shadow: 0 10px 10px -6px rgba(0, 0, 0, 0.2);
+}
 
 .var-highlight{
 	color: #C0AD60;
@@ -29,20 +35,20 @@ body {
 	color: rgba(253, 149, 90, 0.8);
 }
 
-section {
+/* section {
 	display: flex;
 	flex-direction: column-reverse;
 	align-items: center;
 	justify-content: center;
 	width: 100%;
 	height: 100vh;
-}
+} */
 
 #typewriter{
 		font-size: 2em;
 		margin: 0;
 		font-family: "Courier New";
-		width: 100%;
+		/* width: 100%; */
 }
 
 #typewriter::after{
@@ -67,14 +73,14 @@ section {
 
 @media screen and (max-width: 1005px) {
 	pre{
-		padding-top: 129px;
+		/* padding-top: 129px; */
 		 white-space: pre-line;
 		 text-align: center;}
 	}
 
 @media screen and (max-width: 800px) {
 pre{
-	padding-top: 129px;
+	/* padding-top: 129px; */
     white-space: pre-line;
     text-align: center;}
 }
