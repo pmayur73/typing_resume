@@ -1,0 +1,23 @@
+{
+  "name": "my_resume",
+  "version": "1.0.0",
+  "description": "Responsive Typing Resume",
+  "main": "main.js",
+  "dependencies": {
+    "gh-pages": "^2.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "deploy": "gh-pages -d index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pmayur73/resume.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pmayur73/resume/issues"
+  },
+  "homepage": "https://pmayur73.github.io/myResume"
+}
