@@ -48,7 +48,9 @@ body {
 		font-size: 2em;
 		margin: 0;
 		font-family: "Courier New";
-		/* width: 100%; */
+		width: 100%;
+		white-space: pre-line;
+    	text-align: start;
 }
 
 #typewriter::after{
@@ -72,15 +74,40 @@ body {
 }
 
 @media screen and (max-width: 1005px) {
-	pre{
-		/* padding-top: 129px; */
+	/* pre{
+		 padding-top: 129px;
 		 white-space: pre-line;
 		 text-align: center;}
+		  */
+		 .w3-half{
+			height: 300px !important;
+		}
+		.w3-padding-64{
+			display: table-row;
+		}
+
+		.profile-img{
+			height: 229px !important;
+		}
 	}
 
+	
+
 @media screen and (max-width: 800px) {
-pre{
-	/* padding-top: 129px; */
+ /* pre{
+	 padding-top: 129px; 
     white-space: pre-line;
-    text-align: center;}
+    text-align: center;}  */
+
+	 .w3-half{
+		height: 300px !important;
+	}
+
+	.w3-padding-64{
+		display: table-row;
+	}
+
+	.profile-img{
+		height: 229px !important;
+	}
 }
