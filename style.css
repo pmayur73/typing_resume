@@ -1,9 +1,8 @@
 body {
 	background: #444;
 	color: #fff;
-	height: 100%;
+	height: 100vh;
 	margin: 0;
-	/* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
 	line-height: 1.5; }
 	body#bg-img {
 	  background: url(../img/background.jpg);
@@ -20,14 +19,6 @@ body {
 		 background: rgba(68, 68, 68, 0.9); 
 }
 
-.profile-image img {
-	height: 250px;
-	width: 250px;
-	border-radius: 100%;
-	border: 4px solid white;
-	box-shadow: 0 10px 10px -6px rgba(0, 0, 0, 0.2);
-}
-
 .var-highlight{
 	color: #C0AD60;
 }
@@ -35,22 +26,13 @@ body {
 	color: rgba(253, 149, 90, 0.8);
 }
 
-/* section {
-	display: flex;
-	flex-direction: column-reverse;
-	align-items: center;
-	justify-content: center;
+#bg-img #typewriter{
+	font-size: 2em;
+	margin: 0;
+	font-family: "Courier New";
 	width: 100%;
-	height: 100vh;
-} */
-
-#typewriter{
-		font-size: 2em;
-		margin: 0;
-		font-family: "Courier New";
-		width: 100%;
-		white-space: pre-line;
-    	text-align: start;
+	white-space: pre-line;
+   text-align: start;
 }
 
 #typewriter::after{
@@ -74,11 +56,6 @@ body {
 }
 
 @media screen and (max-width: 1005px) {
-	/* pre{
-		 padding-top: 129px;
-		 white-space: pre-line;
-		 text-align: center;}
-		  */
 		 .w3-half{
 			height: 300px !important;
 		}
@@ -94,10 +71,6 @@ body {
 	
 
 @media screen and (max-width: 800px) {
- /* pre{
-	 padding-top: 129px; 
-    white-space: pre-line;
-    text-align: center;}  */
 
 	 .w3-half{
 		height: 300px !important;
