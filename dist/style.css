@@ -70,6 +70,10 @@ body {
 		body#bg-img:after {
 			position: fixed;
 		}
+
+		#bg-img #typewriter{
+			font-size: 1.8em;
+		}
 	}
 
 	
@@ -90,5 +94,9 @@ body {
 
 	body#bg-img:after {
 		position: fixed;
+	}
+
+	#bg-img #typewriter{
+		font-size: 1.8em;
 	}
 }
