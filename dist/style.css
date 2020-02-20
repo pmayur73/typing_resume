@@ -68,7 +68,7 @@ body {
 		}
 
 		body#bg-img:after {
-			position: fixed;
+			position: absolute;
 		}
 
 		#bg-img #typewriter{
@@ -93,7 +93,7 @@ body {
 	}
 
 	body#bg-img:after {
-		position: fixed;
+		position: absolute;
 	}
 
 	#bg-img #typewriter{
