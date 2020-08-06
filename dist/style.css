@@ -26,6 +26,23 @@ body {
 	color: rgba(253, 149, 90, 0.8);
 }
 
+.fa {
+	padding: 24px;
+	font-size: 45px !important;
+	width: 50px;
+	text-align: center;
+	text-decoration: none;
+	margin: 5px 2px;
+	/* position: initial; */
+ }
+
+.fa-linkedin {
+	background: #007bb5;
+	color: white;
+	border-radius: 50%;
+	width: 70px !important;
+ }
+
 #bg-img #typewriter{
 	font-size: 2em;
 	margin: 0;
